@@ -9,15 +9,6 @@ from Analyses_Haeders import analyser_headres
 
 arguments = sys.argv[1:]
 
-def usage ():
-    print("Usage: python network_auditor.py <cible> [cible2..]")
-    sys.exit()
-
-if len(arguments) == 0:
-    usage()
-    sys.exit()
-
-
 cibles = arguments
 
 def afficher_menu():
@@ -33,10 +24,15 @@ def afficher_menu():
 
 
 if __name__ == "__main__":
-
+    cibles = sys.argv[1:]
+    if not cibles:
+        cible_saisie = ""
+        while not cible_saisie.strip():
+            cible_saisie = input("Entrez le nom de domaine ou l'adresse IP : ")
+        cibles = [cible_saisie.strip()]
     for cible in cibles:
-        print("===================================================\n"
-                        " DEBUT DE L'ANALYSE \n"
+        print("==================================================\n"
+                    " DEBUT DE L'ANALYSE \n"
               "==================================================")
         main(
             afficher_menu,
@@ -46,7 +42,3 @@ if __name__ == "__main__":
             http_web,
             analyser_headres,
         )
-
-
-    #resolve_targe(cible)
-    #main(afficher_menu,resolve_targe,cible, verfication_port, http_web, analyser_headres)
