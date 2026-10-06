@@ -1,8 +1,0 @@
-{
-    "target": "petitfute.com",
-    "ip": "0.0.0.0",
-    "ports_ouvert": 4,
-    "web_serveur": "Available",
-    "https": "Available",
-    "security_headers": "4/5"
-}
