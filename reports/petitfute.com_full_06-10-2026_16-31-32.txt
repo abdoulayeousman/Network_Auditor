@@ -1,0 +1,128 @@
+==============================================
+NETWORK SECURITY AUDIT
+===============================================
+Targe : petitfute.com
+Date : 06/10/2026
+=========== DNS =========
+Domaine :  petitfute.com
+Adress IP :  104.20.31.18
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :CLOSED
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :OPEN
+Port 8443 	 :OPEN
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://petitfute.com:80/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.petitfute.com/
+Code :  200
+Serveur :  cloudflare
+Response time :  0.58
+URL_final :  https://www.petitfute.com/
+
+
+URL :  http://petitfute.com:443/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  http://petitfute.com:443/
+Code :  400
+Serveur :  cloudflare
+Response time :  0.2
+URL_final :  http://petitfute.com:443/
+
+
+URL :  http://petitfute.com:8080/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.petitfute.com/
+Code :  200
+Serveur :  cloudflare
+Response time :  0.53
+URL_final :  https://www.petitfute.com/
+
+
+URL :  http://petitfute.com:8443/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  http://petitfute.com:8443/
+Code :  400
+Serveur :  cloudflare
+Response time :  0.17
+URL_final :  http://petitfute.com:8443/
+
+
+URL :  http://petitfute.com:80/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.petitfute.com/
+Code :  200
+Serveur :  cloudflare
+Response time :  0.53
+URL_final :  https://www.petitfute.com/
+
+
+URL :  http://petitfute.com:443/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  http://petitfute.com:443/
+Code :  400
+Serveur :  cloudflare
+Response time :  0.2
+URL_final :  http://petitfute.com:443/
+
+
+URL :  http://petitfute.com:8080/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.petitfute.com/
+Code :  200
+Serveur :  cloudflare
+Response time :  0.57
+URL_final :  https://www.petitfute.com/
+
+
+URL :  http://petitfute.com:8443/
+Cible Suivante :  petitfute.com
+==========================
+WEB SERVER
+============================
+URL :  http://petitfute.com:8443/
+Code :  400
+Serveur :  cloudflare
+Response time :  0.17
+URL_final :  http://petitfute.com:8443/
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+Content-Security-Policy      : MISSING
+X-Frame-Options              : MISSING
+X-XSS-Protection             : MISSING
+X-Content-Type-Options       : MISSING
+Strict-Transport-Security    : MISSING
+Referrer-Policy              : MISSING
+===================================================
+   END OF REPORT
+ ====================================================

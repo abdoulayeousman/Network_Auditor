@@ -1,0 +1,80 @@
+==============================================
+NETWORK SECURITY AUDIT
+===============================================
+Targe : ansice.td
+Date : 06/10/2026
+=========== DNS =========
+Domaine :  ansice.td
+Adress IP :  172.66.0.96
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :CLOSED
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :OPEN
+Port 8443 	 :OPEN
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://ansice.td:80/
+Cible Suivante :  ansice.td
+==========================
+WEB SERVER
+============================
+URL :  https://ansice.td/
+Code :  403
+Serveur :  cloudflare
+Response time :  None
+URL_final :  https://ansice.td/
+
+
+URL :  http://ansice.td:443/
+Cible Suivante :  ansice.td
+==========================
+WEB SERVER
+============================
+URL :  http://ansice.td:443/
+Code :  400
+Serveur :  cloudflare
+Response time :  None
+URL_final :  http://ansice.td:443/
+
+
+URL :  http://ansice.td:8080/
+Cible Suivante :  ansice.td
+==========================
+WEB SERVER
+============================
+URL :  https://ansice.td/
+Code :  403
+Serveur :  cloudflare
+Response time :  None
+URL_final :  https://ansice.td/
+
+
+URL :  http://ansice.td:8443/
+Cible Suivante :  ansice.td
+==========================
+WEB SERVER
+============================
+URL :  http://ansice.td:8443/
+Code :  400
+Serveur :  cloudflare
+Response time :  None
+URL_final :  http://ansice.td:8443/
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+Content-Security-Policy      : PRESENT
+X-Frame-Options              : PRESENT
+X-XSS-Protection             : MISSING
+X-Content-Type-Options       : PRESENT
+Strict-Transport-Security    : MISSING
+Referrer-Policy              : PRESENT
+===================================================
+   END OF REPORT
+ ====================================================

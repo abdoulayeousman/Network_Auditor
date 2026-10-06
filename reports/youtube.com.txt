@@ -1,0 +1,49 @@
+==============================================
+RAPPORT D'ANALYSE COMPLETE : {cible}
+===============================================
+Analyse complète
+=========== DNS =========
+Domaine :  youtube.com
+Adress IP :  142.251.216.46
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :CLOSED
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :CLOSED
+Port 8443 	 :CLOSED
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://youtube.com:80/
+Cible Suivante :  youtube.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.youtube.com/
+Code :  200
+Serveur :  ESF
+Response time :  None
+URL_final :  https://www.youtube.com/
+
+
+URL :  http://youtube.com:443/
+Cible Suivante :  youtube.com
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+PRESENT
+PRESENT
+PRESENT
+PRESENT
+PRESENT
+MISSING

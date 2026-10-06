@@ -1,0 +1,74 @@
+==============================================
+NETWORK SECURITY AUDIT
+===============================================
+Targe : scanme.nmap.org
+Date : 06/10/2026
+=========== DNS =========
+Domaine :  scanme.nmap.org
+Adress IP :  45.33.32.156
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :OPEN
+Port 80 	 :OPEN
+Port 443 	 :CLOSED
+Port 8080 	 :CLOSED
+Port 8443 	 :CLOSED
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://scanme.nmap.org:22/
+Cible Suivante :  scanme.nmap.org
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+URL :  http://scanme.nmap.org:80/
+Cible Suivante :  scanme.nmap.org
+==========================
+WEB SERVER
+============================
+URL :  http://scanme.nmap.org:80/
+Code :  200
+Serveur :  Apache/2.4.7 (Ubuntu)
+Response time :  0.54
+URL_final :  http://scanme.nmap.org:80/
+
+
+URL :  http://scanme.nmap.org:22/
+Cible Suivante :  scanme.nmap.org
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+URL :  http://scanme.nmap.org:80/
+Cible Suivante :  scanme.nmap.org
+==========================
+WEB SERVER
+============================
+URL :  http://scanme.nmap.org:80/
+Code :  200
+Serveur :  Apache/2.4.7 (Ubuntu)
+Response time :  0.56
+URL_final :  http://scanme.nmap.org:80/
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+Content-Security-Policy      : MISSING
+X-Frame-Options              : MISSING
+X-XSS-Protection             : MISSING
+X-Content-Type-Options       : MISSING
+Strict-Transport-Security    : MISSING
+Referrer-Policy              : MISSING
+===================================================
+   END OF REPORT
+ ====================================================

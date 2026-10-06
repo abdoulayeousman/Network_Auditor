@@ -1,0 +1,49 @@
+==============================================
+RAPPORT D'ANALYSE COMPLETE : {cible}
+===============================================
+Analyse complète
+=========== DNS =========
+Domaine :  facebook.com
+Adress IP :  57.144.38.1
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :CLOSED
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :CLOSED
+Port 8443 	 :CLOSED
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://facebook.com:80/
+Cible Suivante :  facebook.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.facebook.com/
+Code :  200
+Serveur :  None
+Response time :  None
+URL_final :  https://www.facebook.com/
+
+
+URL :  http://facebook.com:443/
+Cible Suivante :  facebook.com
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+PRESENT
+PRESENT
+PRESENT
+PRESENT
+PRESENT
+MISSING

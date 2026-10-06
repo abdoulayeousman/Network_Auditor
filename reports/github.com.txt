@@ -1,0 +1,58 @@
+==============================================
+RAPPORT D'ANALYSE COMPLETE : {cible}
+===============================================
+Analyse complète
+=========== DNS =========
+Domaine :  github.com
+Adress IP :  140.82.121.4
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :OPEN
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :CLOSED
+Port 8443 	 :CLOSED
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://github.com:22/
+Cible Suivante :  github.com
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+URL :  http://github.com:80/
+Cible Suivante :  github.com
+==========================
+WEB SERVER
+============================
+URL :  https://github.com/
+Code :  200
+Serveur :  github.com
+Response time :  None
+URL_final :  https://github.com/
+
+
+URL :  http://github.com:443/
+Cible Suivante :  github.com
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+PRESENT
+PRESENT
+PRESENT
+PRESENT
+PRESENT
+PRESENT

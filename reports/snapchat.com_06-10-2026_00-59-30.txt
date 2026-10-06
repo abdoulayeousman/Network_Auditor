@@ -1,0 +1,46 @@
+==================================================
+ RAPPORT D'ANALYSE WEB 
+===================================================
+Targe : snapchat.com
+Date : 06/10/2026
+==========================
+ PORTS 
+===============================
+Port 22 	 :CLOSED
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :CLOSED
+Port 8443 	 :CLOSED
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://snapchat.com:80/
+Cible Suivante :  snapchat.com
+==========================
+WEB SERVER
+============================
+URL :  https://www.snapchat.com:443/
+Code :  403
+Serveur :  None
+Response time :  None
+URL_final :  https://www.snapchat.com:443/
+
+
+URL :  http://snapchat.com:443/
+Cible Suivante :  snapchat.com
+==========================
+WEB SERVER
+============================
+Erreur de d'une requête HTTP
+
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+Content-Security-Policy      : MISSING
+X-Frame-Options              : MISSING
+X-XSS-Protection             : MISSING
+X-Content-Type-Options       : MISSING
+Strict-Transport-Security    : MISSING
+Referrer-Policy              : MISSING

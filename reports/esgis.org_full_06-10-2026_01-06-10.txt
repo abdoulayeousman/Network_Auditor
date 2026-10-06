@@ -1,0 +1,53 @@
+==============================================
+NETWORK SECURITY AUDIT
+===============================================
+Targe : esgis.org
+Date : 06/10/2026
+=========== DNS =========
+Domaine :  esgis.org
+Adress IP :  109.234.166.27
+=========================
+==========================
+ PORTS 
+===============================
+Port 22 	 :CLOSED
+Port 80 	 :OPEN
+Port 443 	 :OPEN
+Port 8080 	 :CLOSED
+Port 8443 	 :CLOSED
+Port 3307 	 :CLOSED
+Port 49152 	 :CLOSED
+Port 49153 	 :CLOSED
+URL :  http://esgis.org:80/
+Cible Suivante :  esgis.org
+==========================
+WEB SERVER
+============================
+URL :  https://www.esgis.org/
+Code :  200
+Serveur :  o2switch-PowerBoost-v3
+Response time :  None
+URL_final :  https://www.esgis.org/
+
+
+URL :  http://esgis.org:443/
+Cible Suivante :  esgis.org
+==========================
+WEB SERVER
+============================
+URL :  http://esgis.org:443/
+Code :  400
+Serveur :  o2switch-PowerBoost-v3
+Response time :  None
+URL_final :  http://esgis.org:443/
+
+
+=====================================
+SECURITY HEADERS
+=====================================
+Content-Security-Policy      : MISSING
+X-Frame-Options              : MISSING
+X-XSS-Protection             : MISSING
+X-Content-Type-Options       : MISSING
+Strict-Transport-Security    : MISSING
+Referrer-Policy              : MISSING
